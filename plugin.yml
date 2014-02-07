@@ -1,0 +1,10 @@
+name: BanManager
+main: BanManager.BanManager
+version: 0.1
+
+commands:
+    ban:
+        description: Ban a player
+        usage: /ban [player] [period] [reason]
+        permission: banmanager.ban
+        permission-message: You don't have banmanager.ban
